@@ -1,12 +1,13 @@
 {
   "name": "kalhash.js",
   "version": "0.0.0",
-  "description": "",
+  "description": "A very useless hashing algorithm based on MD5 that probably has more hash collisions than MD5",
   "main": "index.js",
   "scripts": {
     "publish": "np --no-tests"
   },
-  "keywords": ["hash", "kalhash", "crypto", "cryptography"],
+  "type": "module",
+  "keywords": "cryptography"["hash", "kalhash", "crypto", "cryptography", "cryptography-library", "cryptographic-algorithm", "cryptographic-hash-functions"],
   "author": "AwesomeKalin55",
   "license": "MIT",
   "devDependencies": {
