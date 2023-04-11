@@ -19,3 +19,11 @@ const { kalhash } = import('kalhash.js');
 
 console.log(kalhash('Hello, world!'));
 ```
+
+# Installation
+
+```
+npm i kalhash.js
+yarn add kalhash.js
+pnpm i kalhash.js
+```
