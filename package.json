@@ -7,7 +7,7 @@
     "publish": "np --no-tests"
   },
   "type": "module",
-  "keywords": "cryptography"["hash", "kalhash", "crypto", "cryptography", "cryptography-library", "cryptographic-algorithm", "cryptographic-hash-functions"],
+  "keywords": ["hash", "kalhash", "crypto", "cryptography", "cryptography-library", "cryptographic-algorithm", "cryptographic-hash-functions"],
   "author": "AwesomeKalin55",
   "license": "MIT",
   "devDependencies": {
