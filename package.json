@@ -1,6 +1,6 @@
 {
   "name": "kalhash.js",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A very useless hashing algorithm based on MD5 that probably has more hash collisions than MD5",
   "main": "./build/index.js",
   "scripts": {
