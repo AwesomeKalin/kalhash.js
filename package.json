@@ -2,11 +2,11 @@
   "name": "kalhash.js",
   "version": "1.0.0",
   "description": "A very useless hashing algorithm based on MD5 that probably has more hash collisions than MD5",
-  "main": "index.js",
+  "main": "./build/index.js",
   "scripts": {
-    "publish": "np --no-tests"
+    "publish": "np --no-tests --no-cleanup",
+    "build": "tsc"
   },
-  "type": "module",
   "keywords": [
     "hash",
     "kalhash",
@@ -19,6 +19,8 @@
   "author": "AwesomeKalin55",
   "license": "MIT",
   "devDependencies": {
-    "np": "^7.7.0"
+    "@types/node": "^20.11.19",
+    "np": "^7.7.0",
+    "typescript": "^5.3.3"
   }
 }
